@@ -1,3 +1,4 @@
+package basic;
 import java.util.*;
 public class Conversion {
     public static void main(String args[]){
