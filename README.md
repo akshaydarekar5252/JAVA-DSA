@@ -1,23 +1,22 @@
-🚀 Topics Covered 
+## Java & DSA
 
-Java Basics
+This repository contains my Java programming and Data Structures & Algorithms (DSA) practice code, focused on building strong fundamentals and preparing for technical interviews.
 
-Conditional Statements & Loops
---soon
-Arrays & Strings
+### Topics Covered
+- Java Basics & OOP
+- Arrays & Strings
+- Recursion
+- Searching & Sorting
+- Linked List, Stack & Queue
+- Trees & Graphs (Basics)
 
-Functions & Recursion
+### Tech Stack
+- Java
+- Git & GitHub
 
-Object-Oriented Programming (OOP)
+### Purpose
+- Improve problem-solving skills
+- Prepare for SDE / Software Developer roles
 
-Searching Algorithms
-
-Sorting Algorithms
-
-Linked List
-
-Stack & Queue
-
-Trees & Graphs (Basics)
-
-Time & Space Complexity
+### Author
+Akshay Darekar
