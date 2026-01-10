@@ -1,9 +1,16 @@
+import java.util.Scanner;
+
 public class whileloop {
     public static void main(String args[]){
-        int x = 0;
-        while(x <= 10){
-            System.out.println(x);
-             x++;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter range");
+        int range = sc.nextInt();
+        int counter = 1;
+        System.out.println("Your range is");
+        while (counter <= range) {
+            System.out.println(counter);
+            counter++;
         }
+        
     }
 }
