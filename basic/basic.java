@@ -128,13 +128,13 @@ public class basic {
 
     //leap year finder 
 
-//     int y = sc.nextInt();
+    int y = sc.nextInt();
 
-//    if ((y % 400 == 0) || (y % 4 == 0 && y % 100 != 0)) {
-//     System.out.println("Leap year");
-//     } else {
-//     System.out.println("Not a leap year");
-//     }
+   if ((y % 400 == 0) || (y % 4 == 0 && y % 100 != 0)) {
+    System.out.println("Leap year");
+    } else {
+    System.out.println("Not a leap year");
+    }
 
 
 
@@ -169,8 +169,6 @@ public class basic {
             System.out.println("number was :" + n);
 
         } while(true);
-
-
 
 
 
