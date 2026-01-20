@@ -1,13 +1,28 @@
+import java.util.*;
+
 public class set {
     public static void main(String args[]){
-        int set = (1,2,4,5,6,7,9,6,4);
+        Scanner sc = new Scanner(System.in);
 
-        for(int i = 0; i<= set-1; i++){
-            if(i % 2 ==0){
-                int sum+=i;
-                i+=1
+        int number;
+        int choice;
+        int evenSum = 0;
+        int oddSum = 0;
 
+        do{
+            System.out.println("Enter a Number :");
+            number = sc.nextInt();
+            if (number %2 == 0) {
+                evenSum+= number;
+                                
+            }else{
+                oddSum+= number;
             }
-        }
+            System.out.println("Do you want to continue ? Press 1 for yes or 0 for no");
+            choice = sc.nextInt();
+        } while(choice == 1);
+
+        System.out.println(evenSum +" this is even sum");
+        System.out.println(oddSum +" this is odd sum");
     }
 }
